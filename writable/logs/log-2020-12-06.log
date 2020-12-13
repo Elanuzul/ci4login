@@ -1,0 +1,10 @@
+CRITICAL - 2020-12-06 03:12:34 --> Invalid file: \App\Views\Auth\reset.php
+#0 C:\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\Auth...')
+#1 C:\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('\\App\\Views\\Auth...', Array, true)
+#2 C:\xampp\htdocs\ci4login\vendor\myth\auth\src\Controllers\AuthController.php(266): view('\\App\\Views\\Auth...', Array)
+#3 C:\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->resetPassword()
+#4 C:\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 C:\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4login\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
